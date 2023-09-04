@@ -20,3 +20,15 @@
 用來進行測試資料準確率與錯誤率的檔案
 ### Full_reconstruction
 將切片模型送進訓練好的網路裡，進行預測預校正後，得到的預測後結果切片。 
+
+# Cross_Validation
+就是PG_Net跟GD_Net的交叉驗証pth檔案，我在驗證時選的都是第1500個epoch，所以都只有存這個pth下來。
+
+# Positional_encoding
+我在增加位置資訊後使用的訓練程式碼
+### Model_rotation
+是旋轉模型用的程式碼，旋轉三維模型的。
+### Posi_encoding
+是位置編碼的程式碼，會在main_3DGAN裡呼叫。
+
+其餘就都一樣。
