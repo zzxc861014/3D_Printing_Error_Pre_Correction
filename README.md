@@ -37,7 +37,7 @@
 訓練指令：
 
 ```
-python -m torch.distributed.launch -nprock_per_node=4 main_3DGAN.py
+python -m torch.distributed.launch -nproc_per_node=4 main_3DGAN.py
 ```
 
 # 相關資料
