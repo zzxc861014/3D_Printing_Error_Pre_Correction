@@ -39,3 +39,14 @@
 ```
 python -m torch.distributed.launch -nprock_per_node=4 main_3DGAN.py
 ```
+
+# 相關資料
+做這個計畫前有一些資料你可以先看一下，可以比較瞭解這個計畫的研究內容。
+
+* Generative Advesarial Network (GAN)  [點我](https://arxiv.org/abs/1406.2661)
+* Vox2Vox [點我](https://arxiv.org/abs/2003.13653)
+* Pytorch 官方連結公開說明說(裡面有安裝教學、使用方法跟一些模型的範例和教學自己研究一下) [點我](https://pytorch.org/)
+* Pytorch影片 [點我](https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4)
+* TensorFlow版本的pix2pix [點我](https://www.tensorflow.org/tutorials/generative/pix2pix)
+
+看完之後可以大概了解整個網路架構的流程，如果Pytorch還是不大會用的話，可以去多看其他Youtube的教學影片，或是看看別人的網路架構怎麼寫怎麼訓練的，邏輯差不多相同。
