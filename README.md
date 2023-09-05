@@ -32,3 +32,9 @@
 是位置編碼的程式碼，會在main_3DGAN裡呼叫。
 
 其餘就都一樣。
+
+# ６樓機房訓練
+訓練指令：
+< 
+python -m torch.distributed.launch -nprock_per_node=4 main_3DGAN.py
+>
